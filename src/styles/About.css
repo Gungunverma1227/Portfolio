@@ -1,0 +1,32 @@
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.front {
+  backface-visibility: hidden;
+}
+
+.back {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.group:hover .front {
+  transform: rotateY(180deg);
+}
+
+.group:hover .back {
+  transform: rotateY(360deg);
+}
+
+.group {
+  display: inline-block;
+}

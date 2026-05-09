@@ -1,0 +1,248 @@
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .fade-in-up {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .form-input {
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .submit-button {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .submit-button:disabled {
+    background-color: #cfd8dc;
+  }
+  
+  footer{
+    position: fixed;
+  }
+  .add-shadow{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.custom-text{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Add more style */
+
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+
+
+}
+
+/* Social Media Links */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Add custom styles for the form elements if needed */
+  .form-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    background-color: #f0f8ff; /* Light background for distinction */
+    padding: 1rem;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  
+  .add-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-input {
+    border: 1px solid #007bff; /* Blue border for inputs */
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #ff9800; /* Orange button */
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: #007bff; /* Blue color for social icons */
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #ff9800; /* Change to orange on hover */
+  }
+
+  /* Font and general styling */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contact-container {
+    min-height: calc(100vh - 100px);
+    margin-top: 100px;
+  }
+  
+  .contact-heading {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .contact-card {
+    font-size: 18px;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .form-input {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .submit-button {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px;
+  }
+  
+  .connect-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons .social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+  
+  .social-icons .social-icon:hover {
+    color: #007BFF; /* Add hover effect for social icons */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-heading {
+      font-size: 30px;
+    }
+  
+    .contact-card {
+      font-size: 16px;
+    }
+  }
+
+  /* Base Button Style */
+.submit-button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .submit-button:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Disabled State */
+  .submit-button:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  /* Focus State */
+  .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(255, 165, 0, 0.5);
+  }
+  
+  
