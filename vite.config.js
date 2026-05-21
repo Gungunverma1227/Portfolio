@@ -20,8 +20,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/Portfolio/',
-  build: {
-    outDir: 'docs',
-  },
 })
