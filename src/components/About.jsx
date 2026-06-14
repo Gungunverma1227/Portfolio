@@ -34,11 +34,11 @@ const BackgroundPatterns = () => (
 
 const About = () => {
   const technicalSkills = {
-    "Programming Languages": ["C/C++", "Python", "JavaScript","SQL","HTML", "CSS"],
-    "Databases": ["MySQL","AWS","MongoDB"],
-    "Tools & Environments": ["Git", "GitHub", "Jupyter", "Arduino", "LaTeX", "Linux", "Overleaf"],
-    "Libraries & Frameworks": ["Numpy", "React", "Node.js", "Pandas", "Matplotlib"],
-    "Web Development": ["HTML", "CSS", "JavaScript"]
+    "Programming Languages": ["C/C++", "Python", "JavaScript", "HTML", "CSS"],
+    "ML & Data Science": ["Machine Learning", "Data Analysis", "Scikit-learn", "Data Preprocessing", "Google Colab", "Kaggle", "Jupyter Notebook"],
+    "Libraries & Frameworks": ["Numpy", "Pandas", "Matplotlib", "React", "Node.js", "Express.js", "Django", "Flask", "Tailwind CSS"],
+    "Databases": ["MySQL", "MongoDB", "AWS"],
+    "Tools & Environments": ["Git", "GitHub", "VSCode", "Postman", "Chrome DevTools", "LaTeX", "Linux"],
   };
 
   const publications = [
@@ -49,10 +49,25 @@ const About = () => {
     }
   ];
 
+  const openSource = [
+    {
+      project: "Sugar Labs — Music Blocks",
+      year: "2026",
+      contributions: [
+        "Merged PR fixing critical TypeError crash in getNote() — added type guard to convert numeric noteArg to string before processing.",
+        "Implemented play/pause toggle in Pitch Staircase widget with audio stop mechanism using synth API."
+      ]
+    }
+  ];
+
   const achievements = [
     {
       title: "Excellent Performers Recognition, EIT Faridabad (2023-24)",
       description: "Got Appreciation honors in consecutive Even and Odd semesters for outstanding academic performance in first year."
+    },
+    {
+      title: "Open Source Contributor — Sugar Labs Music Blocks",
+      description: "Merged PR fixing critical TypeError crash in getNote() function. Implemented play/pause toggle in Pitch Staircase widget. Actively contributing as DMP 2026 participant."
     },
     {
       title: "Techlon 2025",
@@ -75,7 +90,7 @@ const About = () => {
 
   const olympiads = [
     "Participating ICPC 2026 for competitive exposure ",
-    "Participated in SIH 2024"
+    "Participated in hackindia 2026"
   ];
 
   return (
@@ -224,6 +239,7 @@ const About = () => {
             </CardContent>
           </Card>
         </motion.div>
+        
 
         {/* Technical Skills Section */}
         <motion.div 

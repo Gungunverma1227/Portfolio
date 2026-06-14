@@ -29,11 +29,11 @@ const Resume = () => {
   }, []);
 
   const technicalSkills = {
-    "Programming Languages": ["C/C++", "Python", "JavaScript"],
-    "Databases": ["MySQL","aws", "MongoDB"],
-    "Tools & Environments": ["Git", "GitHub", "Jupyter Notebook", "Chrome DevTools", "Arduino", "LaTeX", "Linux", "Overleaf"],
-    "Libraries & Frameworks": ["Numpy", "React", "Node.js", "Pandas", "Matplotlib"],
-    "Web Development": ["HTML", "CSS", "JavaScript"]
+    "Programming Languages": ["C/C++", "Python", "JavaScript", "HTML", "CSS"],
+    "ML & Data Science": ["Machine Learning", "Data Analysis", "Scikit-learn", "Data Preprocessing", "Classification", "Clustering", "Google Colab", "Kaggle", "Jupyter Notebook"],
+    "Libraries & Frameworks": ["Numpy", "Pandas", "Matplotlib", "React", "Node.js", "Express.js", "Django", "Flask", "Tailwind CSS", "ShadCN UI"],
+    "Databases": ["MySQL", "MongoDB", "AWS"],
+    "Tools & Environments": ["Git", "GitHub", "VSCode", "Postman", "Chrome DevTools", "LaTeX", "Linux", "Overleaf"],
   };
 
   const publications = [
